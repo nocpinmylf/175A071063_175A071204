@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tham gia đăng ký chương trình khuyến mại</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: darkgreen;">Phiếu đăng ký tham gia chương trình khuyến mại</h1>
+    <table border="1">
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" size="10"  id="ten"> </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" size="10"  id="ten"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" size="10"  id="ten"></td>
+        </tr>
+        <tr>
+            <td>Phái</td>
+            <td>
+                <input type="radio" name="phai">đức pervert
+                <input type="radio" name="phai" checked>Hoa innocent
+            </td>
+        </tr>
+        <tr>
+            <td>Nghề nghiệp</td>
+            <td>
+               <select name="dức dâm dê" id="h">
+                    <option value="">Giáo viên</option>
+                    <option value="">Bác sĩ </option>
+                    <option value="">Kỹ sư</option>
+                    <option value="">Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm tham gia</td>
+            <td>
+                <select>
+                    <option value="">Kem đánh răng </option>
+                    <option value="">Dầu gội đầu</option>
+                    <option value="">sữa tắm</option>
+                    <option value="">Bột giặt</option>
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Số người dự đoán tham gia</td>
+            <td><input type="number" size="10"  id="ten"></td>
+        </tr>
+        <tr>
+                <td colspan="2" style="text-align: center;">
+                        <input type="button" name="Đồng ý" value="Đồng ý" onclick="ham()">
+                       </td>
+        </tr>
+        <tr>
+                <td colspan="2">
+                        <p id="hienthi" style="text-align: center;color: blue;"></p>
+                        <script>
+                                function ham() {
+                                    var id = document.getElementById("tk").value;
+                                    document.getElementById("hienthi").innerHTML = id;
+                                }
+                            </script>
+                    </td>
+        </tr>
+    </table>
+</body>
+</html>
