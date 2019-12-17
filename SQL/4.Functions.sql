@@ -1,0 +1,2 @@
+-- hàm tính điểm tổng kết học phần
+-- hàm tính điểm trung bình của học kỳ

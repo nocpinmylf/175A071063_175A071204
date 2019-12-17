@@ -1,0 +1,5 @@
+-- trigger tự động cập nhật điểm trung bình
+-- trigger tự động cập nhật điểm tổng kết môn
+-- trigger kiểm tra điểm môn nhập vào (>=0, <=10)
+-- trigger không cho phép giáo viên giảng môn khác khoa của họ
+-- trigger thêm ghi chú cho môn học
