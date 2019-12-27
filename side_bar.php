@@ -26,15 +26,15 @@
 			</li>
 			<li>
 				<a href="#">
-					<i class="fa fa-tachometer" aria-hidden="true"></i> Tra Cứu Điểm
+					<i class="fa fa-search" aria-hidden="true"></i> Tra Cứu Điểm
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-users" aria-hidden="true"></i> Quản Lý Điểm
 				</a>
 			</li>
 			<li class="header">Khác</li>
-			<!-- <li>
-				<a href="#">
-					<i class="fa fa-users" aria-hidden="true"></i> Friends
-				</a>
-			</li> -->
 			<li hidden="true">
 				<a href="#">
 					<i class="fa fa-cog" aria-hidden="true"></i> Tuỳ Chỉnh
@@ -59,5 +59,4 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
 </body>
-
 </html>

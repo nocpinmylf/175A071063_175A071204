@@ -28,16 +28,16 @@ create table HocKy(
 );
 
 create table GiangVien(
-	maGV smallint primary key AUTO_INCREMENT,
-    tenGV varchar(30) not null,
-    gioiTinh bit not null,
-    queQuan varchar(200) not null,
-    ngaySinh date not null,
-    email varchar(50) unique not null,
-    maKhoa tinyint not null,
-    taiKhoan varchar(30) unique not null,
+	maGV smallint unique AUTO_INCREMENT,
+    tenGV varchar(30),
+    gioiTinh bit,
+    queQuan varchar(200),
+    ngaySinh date,
+    email varchar(50) primary key not null,
+    maKhoa tinyint,
     matKhau varchar(30) not null default '123456',
-    trangThai varchar(20) default N'Chưa kích hoạt',
+    maXacThuc char(32),
+    trangThai bit default 0,
     foreign key(maKhoa) references Khoa(maKhoa)
 );
 
@@ -53,7 +53,7 @@ create table SinhVien(
 	maSV int primary key AUTO_INCREMENT,
     tenSV varchar(30) not null,
     maLop smallint,
-    khoaHoc char(5) not null, -- khoá học
+    khoaHoc char(5) not null, -- khoá học vd: k59
     gioiTinh bit not null,
     queQuan varchar(200) not null,
     ngaySinh date not null,
