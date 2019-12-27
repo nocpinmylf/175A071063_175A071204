@@ -11,17 +11,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <?php include "header.php";?>
     <div class="wrapper">
-      <?php include "side_bar.php";?>
-      <div class="container leftside">
-        <?php
-          include "function/DB_connection.php";
-          getConnect();
-        ?>
+      <div class="header"><?php include "header.php";?></div>
+      <div class="main">
+        <div class="left-side"><?php include "side_bar.php";?></div>
+        <div class="right-side">
+          <?php
+            include "function/DB_connection.php";
+            getConnect();
+          ?>
+        </div>
+        <div class="footer"><?php include_once "footer.php"; ?></div>
       </div>
     </div>
-      <?php include "footer.php";?>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

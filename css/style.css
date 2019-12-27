@@ -1,4 +1,22 @@
-.leftside {
+.right-side {
     margin-left: 230px !important;
     width: 100% !important;
+}
+
+.header {
+    height: 20%;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.main {
+    height: 60%;
+}
+
+.footer {
+    height: 20%;
 }

@@ -21,7 +21,7 @@
 			<li class="header">Mục Chính</li>
 			<li>
 				<a href="#">
-					<i class="fa fa-home" aria-hidden="true"></i> Homepage
+					<i class="fa fa-home" aria-hidden="true"></i> Trang Chủ
 				</a>
 			</li>
 			<li>
