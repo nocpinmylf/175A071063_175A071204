@@ -1,4 +1,8 @@
 header {
-    background-color: rgb(218, 53, 53);
+    background-color: rgb(79, 221, 60);
     font-size: 16px;
+}
+
+#nav {
+    margin-bottom: 0px !important;
 }

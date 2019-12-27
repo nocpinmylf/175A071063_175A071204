@@ -16,7 +16,7 @@
 
 <body>
 	<div class="sidebar-container">
-		<div class="sidebar-logo">Hệ Thống Quản Lý Điểm Sinh Viên</div>
+		<!-- <div class="sidebar-logo">Hệ Thống Quản Lý Điểm Sinh Viên</div> -->
 		<ul class="sidebar-navigation">
 			<li class="header">Mục Chính</li>
 			<li>
