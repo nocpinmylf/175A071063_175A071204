@@ -50,6 +50,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Đăng nhập</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Đăng ký</a>
+            </li>
           </ul>
         </div>
       </nav>
