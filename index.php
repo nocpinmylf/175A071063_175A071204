@@ -17,11 +17,11 @@
         <div class="left-side"><?php include "side_bar.php";?></div>
         <div class="right-side">
           <?php
-            include "function/DB_connection.php";
-            getConnect();
+            // include "function/DB_connection.php";
+            // getConnect();
           ?>
         </div>
-        <div class="footer"><?php include_once "footer.php"; ?></div>
+        <div class="footer"><?php include "footer.php"; ?></div>
       </div>
     </div>
     
