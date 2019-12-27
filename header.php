@@ -51,7 +51,7 @@
               <a class="nav-link" data-target="#login-modal" data-toggle="modal" aria-hidden="true">Đăng nhập</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-target="#register-modal" data-toggle="modal" aria-hidden="true">Đăng nhập</a>
+              <a class="nav-link" data-target="#register-modal" data-toggle="modal" aria-hidden="true">Đăng Ký</a>
             </li>
           </ul>
         </div>
