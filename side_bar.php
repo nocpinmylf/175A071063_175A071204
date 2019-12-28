@@ -24,7 +24,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" data-toggle="collapse" data-target="#tra-cuu" class="collapsed active" aria-expanded="false">
+					<a href="#" data-toggle="collapse" data-target="#tra-cuu" class="collapsed" aria-expanded="false">
 						<i class="fa fa-search"></i>
 						<span class="nav-label">Tra Cứu Điểm </span>
 						<!-- <span class="fa fa-angle-left pull-right"></span> -->
@@ -36,7 +36,7 @@
 				</li>
 
 				<li>
-					<a href="#" data-toggle="collapse" data-target="#qldiem" class="collapsed active" aria-expanded="false">
+					<a href="#" data-toggle="collapse" data-target="#qldiem" class="collapsed" aria-expanded="false">
 						<i class="fa fa-users"></i>
 						<span class="nav-label">Quản Lý Điểm</span>
 						<!-- <span class="fa fa-angle-left pull-right"></span> -->
@@ -47,7 +47,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#" data-toggle="collapse" data-target="#quantri" class="collapsed active" aria-expanded="false">
+					<a href="#" data-toggle="collapse" data-target="#quantri" class="collapsed" aria-expanded="false">
 						<i class="fa fa-laptop"></i>
 						<span class="nav-label">Trang Quản Trị</span>
 						<!-- <span class="fa fa-angle-left pull-right"></span> -->
