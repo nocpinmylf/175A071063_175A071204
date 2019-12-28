@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tracuu.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -17,19 +18,30 @@
         <div class="header"><?php include "header.php"; ?></div>
         <div class="main">
             <div class="tim-kiem">
-            <form class="card card-sm">
-                                <div class="card-body row no-gutters align-items-center">
-                                    <div class="col">
-                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Nhap Ma Sinh Vien">
-                                    </div>
-                                    <div class="col-auto">
-                                        <button class="btn btn-lg btn-success" type="submit">Tra Cứu</button>
-                                    </div>
-                                </div>
-                            </form>
+                <form class="card-sm">
+                    <div class="card-body row no-gutters align-items-center">
+                        <div class="col">
+                            <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Nhập Mã Sinh Viên">
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-lg btn-success" type="submit">Tra Cứu</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="diem-mon">
-                <table class="table table-striped table-dark">
+            <div class="diem-tb container">
+            <table class="table table-striped table-dark table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Ma Sinh Vien</th>
+                            <th scope="col">Hoc Ky</th>
+                            <th scope="col">Diem Trung Binh</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="diem-mon container">
+                <table class="table table-striped table-dark table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
