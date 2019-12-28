@@ -30,7 +30,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="qldiem.php">
 					<i class="fa fa-users" aria-hidden="true"></i> Quản Lý Điểm
 				</a>
 			</li>
