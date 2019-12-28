@@ -25,7 +25,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="tracuudiem.php">
 					<i class="fa fa-search" aria-hidden="true"></i> Tra Cứu Điểm
 				</a>
 			</li>

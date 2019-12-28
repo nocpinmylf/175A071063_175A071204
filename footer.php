@@ -14,7 +14,7 @@
   <body>
     <footer class="page-footer font-small blue">
   <form action="#" method="GET">
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <div class="footer-copyright text-center py-3">© 2019 Bản quyền:
         <a href="https://github.com/nocpinmylf/175A071063_175A071204/" data-toggle="tooltip" data-placement="right" title="Github">
           <i class="fa fa-github" id="github"></i>
         </a>
