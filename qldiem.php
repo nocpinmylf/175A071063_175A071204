@@ -16,8 +16,30 @@
     <div class="wrapper">
         <div class="header"><?php include "header.php"; ?></div>
         <div class="main">
-            <h1>Trang Quản Lý Điểm Cho Giảng Viên</h1>
-        <div class="footer"><?php include "footer.php"; ?></div>
+            <h2 align="center">Trang Quản Lý Điểm Cho Giảng Viên</h2>
+            <div class="chon-mon container d-flex flex-row">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chọn môn giảng dạy
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chọn lớp giảng dạy
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer"><?php include "footer.php"; ?></div>
         </div>
     </div>
 

@@ -28,17 +28,21 @@ create table HocKy(
 );
 
 create table GiangVien(
-	maGV smallint unique AUTO_INCREMENT,
+	maGV smallint primary key AUTO_INCREMENT,
     tenGV varchar(30),
     gioiTinh bit,
     queQuan varchar(200),
     ngaySinh date,
-    email varchar(50) primary key not null,
     maKhoa tinyint,
-    matKhau varchar(30) not null default '123456',
-    maXacThuc char(32),
-    trangThai bit default 0,
     foreign key(maKhoa) references Khoa(maKhoa)
+);
+
+create table TaiKhoan(
+    email varchar(50) primary key not null,
+    maGV smallint UNIQUE,
+    matKhau varchar(30) not null,
+    maXacThuc char(32),
+    trangThai bit default 0
 );
 
 create table GV_MH (
@@ -73,7 +77,8 @@ create table DiemMon(
     ghiChu varchar(20) default N'Đang Học',
     primary key (maMon, maSV, maHocKy),
     foreign key (maHocKy) references HocKy(maHocKy),
-    foreign key (maGV) references GiangVien(maGV)
+    foreign key (maGV) references GiangVien(maGV),
+    foreign key (maMon) references MonHoc(maMon)
 );
 
 create table DiemTrungBinh(
