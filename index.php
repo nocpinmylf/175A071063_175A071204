@@ -19,19 +19,9 @@
           <?php
             // include "function/DB_connection.php";
             // getConnect();
+            include "calendar.php";
           ?>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
-          <h5>noi dung</h5>
+          
         </div>
         <div class="footer"><?php include "footer.php"; ?></div>
       </div>

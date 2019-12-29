@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<aside>
+	<aside style="top: 66px;">
 		<div class="sidebar left">
 			<ul class="list-sidebar bg-defoult">
 				<li class="header">Mục Chính</li>
