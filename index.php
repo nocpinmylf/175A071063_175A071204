@@ -19,6 +19,7 @@
           <?php
             // include "function/DB_connection.php";
             // getConnect();
+            include "news.php";
             include "calendar.php";
           ?>
           
