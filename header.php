@@ -32,27 +32,29 @@
               <a class="nav-link" href="#">Pricing</a>
             </li> -->
         </ul>
-        <ul class="navbar-nav ml-auto nav-flex-icons">
-          <!-- <li class="nav-item dropdown">
+        <!-- <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User</a>
               <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li> -->
+            </li>
           <li class="nav-item">
             <a class="nav-link" data-target="#login-modal" data-toggle="modal" aria-hidden="true">Đăng nhập</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-target="#register-modal" data-toggle="modal" aria-hidden="true">Đăng Ký</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
   </header>
-  <?php include "register.php"; ?>
-  <?php include "login.php"; ?>
+  
+  <?php 
+      //include "login.php";
+  ?>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
