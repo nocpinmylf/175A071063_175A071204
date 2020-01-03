@@ -21,4 +21,6 @@ body, .center-align>.jumbotron {
     padding: 70px 0;
     text-align: center;
   }
-
+body>.main {
+  min-height: calc(100vh - 122px);
+}

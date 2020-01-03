@@ -10,7 +10,6 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/side_bar.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 
 <body>
@@ -27,7 +26,6 @@
 					<a href="#" data-toggle="collapse" data-target="#tra-cuu" class="collapsed" aria-expanded="false">
 						<i class="fa fa-search"></i>
 						<span class="nav-label">Tra Cứu Điểm </span>
-						<!-- <span class="fa fa-angle-left pull-right"></span> -->
 					</a>
 					<ul class="sub-menu collapse" id="tra-cuu">
 						<li class="active"><a href="#">Điểm Môn</a></li>
@@ -39,7 +37,6 @@
 					<a href="#" data-toggle="collapse" data-target="#qldiem" class="collapsed" aria-expanded="false">
 						<i class="fa fa-users"></i>
 						<span class="nav-label">Quản Lý Điểm</span>
-						<!-- <span class="fa fa-angle-left pull-right"></span> -->
 					</a>
 					<ul class="sub-menu collapse" id="qldiem">
 						<li><a href="#">Thêm Điểm</a></li>
@@ -62,13 +59,7 @@
 				<li class="header">Khác</li>
 				<li>
 					<a href="#">
-						<i class="fa fa-info-circle" aria-hidden="true"></i> Thông Tin
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fa fa-files-o"></i>
-						<span class="nav-label">Other Pages</span>
+					<i class="fa fa-files-o"></i> Thông Tin
 					</a>
 				</li>
 			</ul>

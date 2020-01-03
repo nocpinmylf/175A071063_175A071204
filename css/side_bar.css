@@ -1,3 +1,5 @@
+@import url('https://use.fontawesome.com/releases/v5.1.1/css/all.css');
+
 a:hover {
   text-decoration: none;
 }
@@ -107,9 +109,9 @@ a[aria-expanded="true"] {
   background-color: rgb(79, 221, 60);
 }
 
-a[aria-expanded="true"]::after {
-  font-family: FontAwesome;
-  font-weight: 900;
+/* a[aria-expanded="true"]::after {
+  font-family: 'FontAwesome';
+
   content: "\f107";
   display: block;
   position: absolute;
@@ -118,11 +120,11 @@ a[aria-expanded="true"]::after {
 }
 
 a[aria-expanded="false"]::after {
-  font-family: FontAwesome;
-  font-weight: 900;
+  font-family: 'FontAwesome';
+
   content: "\f104";
   display: block;
   position: absolute;
   right: 15px;
   top: 9px;
-}
+} */
