@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <footer class="page-footer font-small blue">
+  <footer class="page-footer blue">
     <form action="#" method="GET">
       <div class="footer-copyright text-center py-3">© 2019 Bản quyền:
         <a href="https://github.com/nocpinmylf/175A071063_175A071204/" data-toggle="tooltip" data-placement="right" title="Github">
