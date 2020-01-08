@@ -23,16 +23,11 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" data-toggle="collapse" data-target="#tra-cuu" class="collapsed" aria-expanded="false">
+					<a href="tracuudiem.php">
 						<i class="fa fa-search"></i>
 						<span class="nav-label">Tra Cứu Điểm </span>
 					</a>
-					<ul class="sub-menu collapse" id="tra-cuu">
-						<li class="active"><a href="#">Điểm Môn</a></li>
-						<li><a href="#">Điểm Trung Bình</a></li>
-					</ul>
 				</li>
-
 				<li>
 					<a href="#" data-toggle="collapse" data-target="#qldiem" class="collapsed" aria-expanded="false">
 						<i class="fa fa-users"></i>

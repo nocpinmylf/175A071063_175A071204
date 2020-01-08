@@ -46,7 +46,8 @@ div.bhoechie-tab-menu div.list-group > a.active .fa {
   background-image: #5a55a3;
   color: #ffffff;
 }
-div.bhoechie-tab-menu div.list-group > a.active:after {
+
+/* div.bhoechie-tab-menu div.list-group > a.active:after {
   content: "";
   position: relative;
   left: 100%;
@@ -56,7 +57,7 @@ div.bhoechie-tab-menu div.list-group > a.active:after {
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
   border-left: 10px solid #5a55a3;
-}
+} */
 
 div.bhoechie-tab-content {
   background-color: #ffffff;

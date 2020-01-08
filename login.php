@@ -17,21 +17,23 @@
 			<div class="modal-body">
 				<div class="tab-content">
 					<div id="login-tab" class="tab-pane fade in show active">
-						<div class="form-group">
-							<label for="username" class="col-form-label">Email</label>
-							<input type="email" class="form-control" id="email" required>
-						</div>
-						<div class="form-group">
-							<label for="password" class="col-form-label">Mật Khẩu</label>
-							<input type="password" class="form-control" id="password" required>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-primary" id="login-btn">Đăng Nhập</button>
-						</div>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label for="username" class="col-form-label">Email</label>
+								<input type="email" class="form-control" id="email" required>
+							</div>
+							<div class="form-group">
+								<label for="password" class="col-form-label">Mật Khẩu</label>
+								<input type="password" class="form-control" id="password" required>
+							</div>
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-primary" id="login-btn">Đăng Nhập</button>
+							</div>
+						</form>
 					</div>
 
 					<div id="register-tab" class="tab-pane fade">
-						<form>
+						<form action="#" method="POST">
 							<div class="form-group">
 								<label for="rgt-email" class="col-form-label">Email</label>
 								<input type="email" class="form-control" id="rgt-email" required>

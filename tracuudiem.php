@@ -33,9 +33,9 @@
 				<table class="table table-striped table-dark table-bordered">
 					<thead>
 						<tr>
-							<th scope="col">Ma Sinh Vien</th>
-							<th scope="col">Hoc Ky</th>
-							<th scope="col">Diem Trung Binh</th>
+							<th scope="col">Mã Sinh Viên</th>
+							<th scope="col">Học Kỳ</th>
+							<th scope="col">Điểm Trung Bình</th>
 						</tr>
 					</thead>
 				</table>
@@ -45,35 +45,35 @@
 					<thead>
 						<tr>
 							<th scope="col">#</th>
-							<th scope="col">Ten Mon</th>
-							<th scope="col">Hoc Ky</th>
-							<th scope="col">Giang Vien</th>
-							<th scope="col">Qua Trinh</th>
+							<th scope="col">Tên Môn</th>
+							<th scope="col">Học Kỳ</th>
+							<th scope="col">Giảng Viên</th>
+							<th scope="col">Quá Trình</th>
 							<th scope="col">Thi</th>
-							<th scope="col">Tong Ket</th>
-							<th scope="col">Ghi Chu</th>
+							<th scope="col">Tổng Kết</th>
+							<th scope="col">Ghi Chú</th>
 						</tr>
 					</thead>
 					<!-- <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody> -->
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<th scope="row">2</th>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<th scope="row">3</th>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody> -->
 				</table>
 				<?php
 				// include "function/DB_connection.php";

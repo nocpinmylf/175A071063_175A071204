@@ -20,8 +20,8 @@
 <body>
 	<div class="news-groups container">
 		<div class="row">
-			<div class="col-lg-5 col-md-5 col-sm-8 col-xs-9 bhoechie-tab-container">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab-container">
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 bhoechie-tab-menu">
 					<div class="list-group">
 						<a href="#" class="list-group-item active text-center">
 							<i class="fas fa-newspaper"></i><br />Tin Tức

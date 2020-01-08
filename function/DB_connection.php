@@ -1,19 +1,11 @@
 <?php
-function getConnect() {
-    DEFINE ('DB_USER', 'root');
-    DEFINE ('DB_PASSWORD', '');
-    DEFINE ('DB_HOST', 'localhost');
-    DEFINE ('DB_NAME', 'QLDiemSV');
-    
-    $dbcon = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-    mysqli_set_charset($dbcon, 'utf8');
+require "DB_config.php";
+try {
+    $connection = new PDO("mysql:host=$host", $username, $password, $options);
+    // $sql = file_get_contents("SQL/1.CreateDatabase.sql");
+    // $connection->exec($sql);
 
-    // Kiểm tra lỗi kết nối
-    if ($dbcon->connect_error) {
-        die("Lỗi kết nối: " . mysqli_connect_error());
-        return null;
-    }
-    echo "Kết nối thành công";
-    return $dbcon;
+    echo "Khởi tạo thành công.";
+} catch (PDOException $error) {
+    echo $connection . "</br></br>" . $error->getMessage();
 }
-?>
